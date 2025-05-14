@@ -1,0 +1,231 @@
+h1 {
+	background-color: #39ff14	;
+	text-align: center;
+	color: #000;
+}
+
+body {
+    margin: 0;
+    font-family: "agency fb";
+    background-color: #0a0a0a;
+    color: #fff;
+
+}
+
+.top-hud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.login-button a {
+    color: white;
+    text-decoration: none;
+    background-color: #48474f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 35px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login-button a:hover {
+    background-color: #2d2d30;
+}
+p h2, {
+	color: #000;
+}
+div {
+}
+.table {
+  width: 250px; 
+  padding: 15px;
+  margin: 20px auto; 
+  background-color: #1a1a1a; 
+  border-radius: 10px; 
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5); 
+  color: #fff; 
+}
+
+.table h2 {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #00ffff; 
+  text-transform: uppercase; 
+  letter-spacing: 1.5px; 
+}
+
+.table ul {
+  list-style: none; 
+  padding: 0; 
+}
+
+.table ul li {
+  margin: 10px 0; 
+}
+
+.table ul li a {
+  color: #ffd700; 
+  text-decoration: none; 
+  font-size: 16px;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.table ul li a:hover {
+  color: #39ff14; 
+  text-shadow: 0 0 5px #39ff14; 
+}
+mark {
+	background-color: #8a2be2;
+  padding: 10px 20px;
+}
+.partner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #0a0a0a;
+}
+
+.p-item {
+  text-align: center;
+  margin: 15px;
+  width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.p-item img {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.p-item:hover {
+  transform: scale(1.05); 
+}
+
+.p-item a {
+  color: #ffd700; 
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.p-item a:hover {
+  color: #39ff14; 
+  text-shadow: 0 0 5px #39ff14; 
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px; 
+}
+
+.item {
+  background-color: #1a1a1a; 
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+  transform: translateY(-10px);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item h3 {
+  color: #00ffff;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.item h6 {
+  color: #44484a;
+  margin: 10px 0;
+  font-size: 11px;
+}
+
+.item p {
+  color: #ffd700;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.buy-now {
+  background-color: #00ff7f; 
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buy-now:hover {
+  background-color: #fff;
+}
+
+.add-to-cart {
+  display: inline-block;
+  background-color: #48474f;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+  background-color: #5a5a5f; 
+  transform: translateY(-3px); 
+}
+
+.learn-more {
+  display: inline-block; 
+  background-color: #00ffff; 
+  color: #000; 
+  padding: 10px 20px; 
+  margin-top: 10px; 
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.learn-more:hover {
+  background-color: #39FF14; 
+  transform: translateY(-3px);
+  text-shadow: 0 0 5px #39FF14;
+}
+.override
