@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+    <div class="top-hud">
+        <div class="logo">Gen Zaming Store</div>
+        <div class="login-button">
+            <a href="login.html">Log In</a>
+        </div>
+    </div>
+<span><p> uh why are you scrolling up? <span style="color: #212122;"> in other words, the reason why the thing looks so advanced is because, advanced student from my previous school teaching this ;)</span></p> </span>
+<h1>Welcome to the Gen Zaming Store!</h1>
+<h2 style="text-align: center;"> Here where we can offer many things like keyboards, mouses, headsets, and many more! All from an existing AAA brands like Razer, Republic of Gamers, and others! </h2>
+<div class="table">
+  <h2 style="text-align: center;">Table of Contents</h2>
+  <ul>
+    <li><a href="#section1">Overview</a></li>
+    <li><a href="#section2">Keyboards</a></li>
+    <li><a href="#section3">Headphones</a></li>
+    <li><a href="#section4">Mouses</a></li>
+    <li><a href="#section5">Gaming Laptops</a></li>
+  	<li><a href="#section6">Extras</a></li>
+  </ul>
+</div>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <!-- so much <br> tags lol!!! -->
+<h2 id="section1" style="text-align: center;"><mark> Partnered Brands Overview </mark></h2>
+<h6> AKA Sources/References </h6>
+<!-- Alienware, Razer, Corsiar, RoG, Steelseries-->
+<div class="partner-container">
+  <div class="p-item">
+	<a href="https://www.corsair.com" target="_blank"> <img src="Corsair-Logo.jpg" alt="Corsair"> Corsair </a>
+	<!-- image source: https://wallpaperaccess.com/corsair-logo -->
+  </div>
+  <div class="p-item">
+    <a href="https://rog.asus.com" target="_blank"> <img src="RoG-Logo.jpg" alt="Republic of Gamers"> Republic of Gamers </a>
+    <!-- image source: https://www.hdwallpapers.in/colorful_logo_republic_of_gamers_4k_5k_hd_asus_rog-wallpapers.html -->
+  </div>
+  <div class="p-item">
+    <a href="https://www.razer.com" target="_blank"> <img src="Razer-Logo.png" alt="Razer"> Razer </a>
+  </div>
+  <div class="p-item">
+    <a href="https://steelseries.com/" target="_blank"> <img src="Steelseries-Logo.jpg" alt="Steelseries"> Steelseries </a>
+    <!-- image souce: https://www.flickr.com/photos/macross_design/7559109848/ --> 
+  </div>
+    <div class="p-item">
+    <a href="https://www.alienware.com" target="_blank"> <img src="AW-Logo.jpg" alt="Alienware"> Alienware </a>
+       <!-- image source: https://www.deviantart.com/mokrosuhibrijac/art/Alienware-logo-165199037 -->
+  </div>		
+</div>
+
+
+<h2 id="section2" style="text-align: center;"><mark> Keyboards </mark></h2>
+
+<div class="items-container">
+  <div class="item">
+    <img src="blackwidowv4pro.jpg" alt="Gaming Keyboard"> 
+    <h3>Blackwidow V4 pro</h3>
+    <h6>By Razer</h6>
+    <p>$299.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>	
+  </div>
+  
+  <div class="item">
+    <img src="razerhuntsman.jpg" alt="Gaming Keyboard">
+    <h3>Huntsman V3 Pro Mini</h3>
+    <h6>By Razer</h6>
+    <p>$179.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>
+  </div>
+  
+  <div class="item">
+    <img src="razerdeathstalker.jpg" alt="Gaming Keyboard">
+    <h3>DeathStalker V2</h3>
+    <h6>By Razer</h6>
+    <p>$169.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>	
+  </div>
+  
+  <div class="item">
+    <img src="razerornata.jpg" alt="Gaming Keyboard">
+    <h3>Ornata V3</h3>
+    <h6>By Razer</h6>
+    <p>$69.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>	
+  </div>
+  
+    <div class="item">
+    <img src="rogazoth.png" alt="Gaming Keyboard"> 
+    <h3>Azoth Keyboard</h3>
+    <h6>By Republic of Gamers</h6>
+    <p>$209.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>	
+  </div>
+  
+  <div class="item">
+    <img src="rogfalace.png" alt="Gaming Keyboard">
+    <h3>Falchion Ace</h3>
+    <h6>By Republic of Gamers</h6>
+    <p>$84.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>
+  </div>
+  
+  <div class="item">
+    <img src="rogstrix.png" alt="Gaming Keyboard">
+    <h3>Strix Scope NX TKL</h3>
+    <h6>By Republic of Gamers</h6>
+    <p>$109.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>	
+  </div>
+  
+  <div class="item">
+    <img src="steelapexpro.png" alt="Gaming Laptop">
+    <br> <br> <br> <br> <br> <br>
+    <h3>Apex Pro TKL</h3>
+    <h6> By Steelseries </h6>
+    <p>$189.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>	
+  </div>
+</div>
+
+<br> <br> <br>
+
+<h2 id="section3" style="text-align: center;"><mark> Headphones </mark></h2>
+
+<div class="items-container">
+  <div class="item">
+    <img src="razerkrakenv4.jpg" alt="Gaming Headset"> 
+    <h3>Kraken V4</h3>
+    <h6>By Razer</h6>
+    <p>$179.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="aw920h.png" alt="Gaming Headset"> 
+    <h3>AW920 Tri-mode Wireless</h3>
+    <h6>By Alienware</h6>
+    <p>$179.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="razerblacksharkv2.jpg" alt="Gaming Headset"> 
+    <h3>BlackShark V2 pro</h3>
+    <h6>By Razer</h6>
+    <p>$199.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="barracuda.jpg" alt="Gaming Headset"> 
+    <h3>Barracuda X</h3>
+    <h6>By Razer</h6>
+    <p>$99.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="rogdeltaii.png" alt="Gaming Headset">
+    <h3>Delta II</h3>
+    <h6>By Republic of Gamers</h6>
+    <p>$229.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>
+  </div>
+
+  <div class="item">
+    <img src="corsiarvoid.jpg" alt="Gaming Headset">
+    <h3>Void RGB USB</h3>
+    <h6>By Corsiar</h6>
+    <p>$109.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>
+  </div>
+
+  <div class="item">
+    <img src="corsiarvirtuso.jpeg" alt="Gaming Headset">
+    <br> <br> <br> <br> <br> <br> <br>
+    <h3>Virtuso Pro</h3>
+    <h6>By Corsiar</h6>
+    <p>$199.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>
+  </div>
+
+  <div class="item">
+    <img src="steelarctis.png" alt="Gaming Headset">
+    <br> <br> <br> <br> 
+    <h3>Arctis Nova Pro</h3>
+    <h6>By Steelseries</h6>
+    <p>$349.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>
+  </div>
+
+</div>
+
+<br><br><br>
+<h2 id="section4" style="text-align: center;"><mark> Mouses </mark></h2>
+
+<div class="items-container">
+  <div class="item">
+    <img src="steelaerox.png" alt="Gaming Headset"> 
+    <h3>Aerox 9 Wireless</h3>
+    <h6>By Steelseries</h6>
+    <p>$149.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="steelprime.png" alt="Gaming Mouse">
+    <br> <br>
+    <h3>Prime Wireless</h3>
+    <h6>By Steelseries</h6>
+    <p>$79.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="steelrival.png" alt="Gaming Mouse">
+    <br> <br>
+    <h3>Rival 650 Wireless</h3>
+    <h6>By Steelseries</h6>
+    <p>$62.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="rogchakram.png" alt="Gaming Mouse">
+    <h3>Chakram X Origin</h3>
+    <h6>By Republic of Gamers</h6>
+    <p>$139.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+ <div class="item">
+    <img src="roggladius.png" alt="Gaming Mouse">
+    <h3>Gladius III Aimpoint</h3>
+    <h6>By Republic of Gamers</h6>
+    <p>$119.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="corsiarm75.png" alt="Gaming Mouse">
+    <h3>M75 Wireless Lightweight</h3>
+    <h6>By Corsiar</h6>
+    <p>$99.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="razerbasilisk.jpg" alt="Gaming Mouse">
+    <br><br><br><br><br>
+    <h3>Basilisk V3 Pro</h3>
+    <h6>By Razer</h6>
+    <p>$159.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+  <div class="item">
+    <img src="razernaga.jpg" alt="Gaming Mouse">
+    <br><br><br><br><br>
+    <h3>Naga V2 Pro</h3>
+    <h6>By Razer</h6>
+    <p>$179.99</p>
+    <button class="buy-now">Buy Now</button>
+    <span class="add-to-cart">Add to Cart</span>  
+  </div>
+
+ </div> 
+
+
+<br><br><br>
+<h2 id="section5" style="text-align: center;"><mark> Gaming Laptops </mark></h2>
+  
+<div class="items-container">
+  <div class="item">
+    <img src="rogzephyrus.png" alt="Gaming Laptop">
+    <h3>ROG Zephyrus Series</h3>
+    <h6>By Republic of Gamers</h6>
+    <a href="https://rog.asus.com/laptops/rog-zephyrus-series/?items=20393" class="learn-more">Learn More</a>
+  </div>
+
+  <div class="item">
+    <img src="rogflow.png" alt="Gaming Laptop">
+    <h3>ROG Flow Series</h3>
+    <h6>By Republic of Gamers</h6>
+    <a href="https://rog.asus.com/laptops/rog-zephyrus-series/?items=20392" class="learn-more">Learn More</a>
+  </div>
+
+  <div class="item">
+    <img src="razerblade.jpg" alt="Gaming Laptop">
+    <br> <br> <br> <br> <br>
+    <h3>Razer Blade Series</h3>
+    <h6>By Republic of Gamers</h6>
+    <a href="https://www.razer.com/pc/gaming-laptops" class="learn-more">Learn More</a>
+  </div>
+
+  <div class="item">
+    <img src="awlaptop.jpg" alt="Gaming Laptop">
+    <br> <br> <br>
+    <h3>Alienware Laptops</h3>
+    <h6>By Alienware</h6>
+    <a href="https://www.dell.com/en-us/gaming/alienware-laptops" class="learn-more">Learn More</a>
+  </div>
+
+</div>
+
+
+<br><br><br>
+<h2 id="section6" style="text-align: center;"><mark> Extras </mark></h2>
+<h1 style="background-color: #ff074a"> NONE ARE AVALIABLE </h1>
+<h6 style="color: #070715;"> simply because I didn't have enough time so have this thing instead </h6>
+<br><br><br><br><br> 
+<h1> You're reached the end! </h1>
+<h6> Once again, the sources are at the <a href="#section1"> partner overview </a> additional sources can be found within the code comments </h6>
+
+</body>
+</html>
