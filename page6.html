@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Rate Us - Online Portfolio</title> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            /* Uses Bootstrap's default font stack (system fonts) */
+            padding-top: 56px; /* Add padding to the top of the body to offset the fixed navbar */
+            background-color: #f8f9fa; /* Light gray background for the page */
+            display: flex; /* Added for sticky footer */
+            flex-direction: column; /* Added for sticky footer */
+        }
+        .navbar {
+            box-shadow: 0 2px 4px rgba(0,0,0,.1); 
+        }
+        .content-wrap { 
+            flex: 1;
+        }
+        .section-padding {
+            padding: 40px 0; /* Consistent padding for sections */
+        }
+        .form-container { /* Container for the feedback form */
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 0.375rem;
+            box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075); /* Bootstrap's shadow-sm */
+        }
+        h2.section-title { /* Styling for section titles */
+            margin-bottom: 30px; /* Space below section titles */
+            font-weight: 600; /* Bolder section titles */
+        }
+        footer {
+            background-color: #343a40; /* Dark background for the footer */
+            color: white; /* White text for the footer */
+            margin-top: auto; /* Added for sticky footer */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="mainpage.html">Our Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="mainpage.html#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownQuarters" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Quarters
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownQuarters">
+                            <li><a class="dropdown-item" href="page2.html">Quarter 1</a></li>
+                            <li><a class="dropdown-item" href="page3.html">Quarter 2</a></li>
+                            <li><a class="dropdown-item" href="page4.html">Quarter 3</a></li>
+                            <li><a class="dropdown-item" href="page5.html">Quarter 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page6.html">What's Next</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="page7.html">Rate Us</a> </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search (N/A)" aria-label="Search" disabled>
+                    <button class="btn btn-outline-secondary" type="submit" disabled>Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="content-wrap">
+        <section id="rate-us-form" class="section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="form-container">
+                            <h2 class="text-center section-title">Rate My Portfolio</h2>
+                            <p class="text-center text-muted mb-4">Your feedback is valuable to me. Please let me know how I did!</p>
+
+                            <div id="feedbackMessage" class="mb-3"></div>
+
+                            <form id="feedbackForm">
+                                <div class="mb-3">
+                                    <label for="userName" class="form-label">Your Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="userName" placeholder="Enter your name" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="userEmail" class="form-label">Your Email (Optional)</label>
+                                    <input type="email" class="form-control" id="userEmail" placeholder="Enter your email">
+                                    <div class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="userRating" class="form-label">Overall Rating (1-10) <span class="text-danger">*</span></label>
+                                    <select class="form-select" id="userRating" required>
+                                        <option value="" selected disabled>Choose a rating...</option>
+                                        <option value="1">1 - Needs a lot of improvement</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5 - Average</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8 - Good</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10 - Excellent!</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="userComments" class="form-label">Comments/Suggestions <span class="text-danger">*</span></label>
+                                    <textarea class="form-control" id="userComments" rows="4" placeholder="Tell us what you think..." required></textarea>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit Feedback</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="py-3 text-center small">
+        <div class="container">
+            <p class="mb-1">&copy; 2024-2025 OBMC Fairview - ICT 9-Sapphire</p>
+            <p class="mb-0">Angelo Jeaven Lewis B. Reyes</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        // Wait for the DOM to be fully loaded; AI assisted part
+        document.addEventListener('DOMContentLoaded', function () {
+            const feedbackForm = document.getElementById('feedbackForm'); // Get the form element
+            const feedbackMessageDiv = document.getElementById('feedbackMessage'); // Get the message display div
+
+
+            feedbackForm.addEventListener('submit', function (event) {
+                event.preventDefault(); // Prevent the default form submission behavior
+
+                // Clear previous messages
+                feedbackMessageDiv.innerHTML = '';
+                feedbackMessageDiv.className = ''; // Clear existing alert classes
+
+                // Get form values
+                const userName = document.getElementById('userName').value;
+                const userEmail = document.getElementById('userEmail').value;
+                const userRating = document.getElementById('userRating').value;
+                const userComments = document.getElementById('userComments').value;
+
+                if (userName === '') {
+                    displayMessage('Please enter your name.', 'danger');
+                    document.getElementById('userName');
+                    return;
+                }
+                if (userRating === '') {
+                    displayMessage('Please select a rating.', 'danger');
+                    document.getElementById('userRating');
+                    return;
+                }
+                if (userComments === '') {
+                    displayMessage('Please provide some comments or suggestions.', 'danger');
+                    document.getElementById('userComments');
+                    return;
+                }
+
+                const ratingAsPercentage = ((userRating) / 10) * 100; // parseInt to ensure it's a number
+
+
+                let successMsg = `Thank you, ${userName}, for your feedback! You rated our portfolio ${userRating} out of 10`;
+                successMsg += ` (which is ${ratingAsPercentage}%).`; // Adding the Math method result
+                if (userEmail) {
+                    successMsg += ` A confirmation (simulated) might be sent to ${userEmail}.`;
+                }
+                displayMessage(successMsg, 'success');
+
+                // Reset the form after successful submission
+                feedbackForm.reset();
+            });;
+    </script>
+</body>
+</html>
